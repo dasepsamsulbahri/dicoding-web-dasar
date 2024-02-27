@@ -1,9 +1,4 @@
-# [melajah.id](https://melajah.id)
 Project ini adalah Submission dari materi [Belajar Dasar Pemrograman Web](https://www.dicoding.com/academies/123).
-
-### Preview
-<img src="screenshot/preview1.png">
-<img src="screenshot/preview2.png" width=256>
 
 ## Submission
 Untuk bisa lulus dan mendapatkan sertifikat dari akademi ini, Anda harus mengerjakan tugas Halaman Website sesuai kriteria lengkap di bawah. Tim reviewer akan memeriksa pekerjaan Anda dan memberikan review pada proyek yang Anda buat.
