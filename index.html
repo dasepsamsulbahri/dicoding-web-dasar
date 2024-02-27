@@ -1,81 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tourism of Yogya</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/header.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dicoding | Belajar Dasar Pemrograman Web</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#banner">Home</a></li>
+                    <li><a href="#content">Post</a></li>
+                    <li><a href="#explain">Post Details</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="assets/js/script.js"></script>
+        <main>
+            <div id="banner" class="banner">
+                <div class="thumbnail">
+                    <img src="./img/banner-1.jpg" alt="img">
+                </div>
+            </div>
 
-    
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Beranda</a></li>
-                <li><a href="#apa-itu-melajah">Sejarah Sukabumi</a></li>
-                <li><a href="#cara-mendaftar">Cara Mendaftar</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <div id="banner">
-            <article class="card-banner">
-                <img src="assets/img/banner.jpg" alt="banner" class="featured-image">
-            </article>
-        </div>
+            <div id="content">
+                <article class="service one">
+                    <h3>Website Development</h3>
+                    <p>Website development broadly refers to the tasks and processes involved in creating and maintaining a website. This includes everything from markup and coding to scripting, network configuration, and CMS development.</p>
+                </article>
+                <article class="service two">
+                    <h3>Mobile Development</h3>
+                    <p>Mobile app development is the act or process by which a mobile app is developed for one or more mobile devices, which can include personal digital assistants, enterprise digital assistants, or mobile phones.</p>
+                </article>
+                <article class="service three">
+                    <h3>Computer Network</h3>
+                    <p>A computer network is a set of computers sharing resources located on or provided by network nodes. Computers use common communication protocols over digital interconnections to communicate with each other.</p>
+                </article>
+            </div>
 
-        <div id="content">
-            <article id="apa-itu-melajah" class="post">
-                <h2>Apa Itu Melajah?</h2>
-                <img src="assets/img/melajah1.png" alt="Apa itu melajah?" class="featured-image">
-                <p>Hello World!</p>
-            </article>
-            <article id="apa-itu-melajah" class="post">
-                <h2>Apa Itu Melajah?</h2>
-                <img src="assets/img/melajah1.png" alt="Apa itu melajah?" class="featured-image">
-                <p>Hello World!</p>
-            </article>
+            <aside id="explain" class="explain">
+                <div class="sidebar one">
+                    <h2>Top Most Popular Programming Languages for Mobile App Development</h2>
+                    <p>So, you have to choose the mobile app development languages for your product. Before, we recommend learning about the types of mobile apps on the market. There’s a great variety.</p>
+                </div>
+                <div class="sidebar two">
+                    <div class="thumbnail">
+                        <img src="./img/2.jpg" alt="img">
+                    </div>
+                </div>
+            </aside>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2024 by Dasep Samsul Bahri</p>
+        </footer>
 
-            <!-- <article id="cara-mendaftar" class="card">
-                <h2>Cara Mendaftar</h2>
-                <img src="assets/img/melajah1.png" alt="Cara mendaftar" class="featured-image">
-                <p>Hello World!</p>
-            </article> -->
-        </div>
-
-        <aside>
-            <article class="profile card">
-                <header>
-                    <h2>Profil Developer</h2>
-                    <figure>
-                        <img src="assets/img/omrobbie.png" alt="omrobbie" class="rounded">
-                        <figcaption>omrobbie</a></figcaption>
-                    </figure>
-                    <section>
-                        <a href="https://facebook.com/putu.roby"><img src="assets/img/sosmed-facebook.png" alt="Facebook"></a>
-                        <a href="https://www.instagram.com/omrobbie"><img src="assets/img/sosmed-instagram.png" alt="Facebook"></a>
-                        <a href="https://twitter.com/omrobbie"><img src="assets/img/sosmed-twitter.png" alt="Facebook"></a>
-                        <a href="http://api.whatsapp.com/send?phone=628125262350&text=Halo%20omrobbie!%20Saya%20dapat%20kontak%20ini%20dari%20dicoding.com"><img src="assets/img/sosmed-whatsapp.png" alt="Facebook"></a>
-                    </section>
-                </header>
-            </article>
-        </aside>
-    </main>
-
-    <footer>
-        <p>Copyright &copy; 2024 by Dasep Samsul Bahri</a></p>
-    </footer>
-</body>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="./js/script.js"></script>
+    </body>
 </html>
